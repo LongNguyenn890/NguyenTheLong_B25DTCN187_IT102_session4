@@ -9,8 +9,11 @@ int main() {
 	else if (n % 3 == 0) {
 		printf("so vua nhap chia het cho 3");
 	}
-	else {
+	else if (n % 5 == 0) {
 		printf("so vua nhap chia het cho 5");
+	}
+	else {
+		printf("so vua nhap khong chia het cho 3 va 5");
 	}
 	return 0;
 }
